@@ -22,3 +22,9 @@ npm run start:dev
 ```
 http://localhost:3000/graphql
 ```
+7. Execute the executeSeed __mutatiton__, to fill the database with custom information
+```
+mutation Mutation {
+  executeSeed
+}
+```
