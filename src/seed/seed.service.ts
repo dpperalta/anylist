@@ -37,9 +37,9 @@ export class SeedService {
     }
     
     async executeSeed() {
-        if( this.isProd ) {
+        /* if( this.isProd ) {
             throw new UnauthorizedException(`We can't run SEED in production mode`);
-        }
+        } */
 
         // Limpiar la base de datos
         await this.deleteDatabase();
