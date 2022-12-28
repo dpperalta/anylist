@@ -540,3 +540,14 @@ export const SEED_ITEMS = [
     },
 ]
 
+export const SEED_LISTS = [
+    {
+        name: "Supermercado"
+    },
+    {
+        name: "Diario"
+    },
+    {
+        name: "Compras"
+    }
+]
