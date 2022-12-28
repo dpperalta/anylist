@@ -6,7 +6,6 @@ import { ListItem } from './entities/list-item.entity';
 import { Repository } from 'typeorm';
 import { PaginationArgs, SearchArgs } from '../common/dto/args';
 import { List } from '../lists/entities/list.entity';
-import { userInfo } from 'os';
 
 @Injectable()
 export class ListItemService {
